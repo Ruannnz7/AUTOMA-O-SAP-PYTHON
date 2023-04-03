@@ -1,6 +1,7 @@
 import pyautogui
 import time
 
+#LOGIN GIS
 pyautogui.moveTo(924,528,duration=0.5)
 pyautogui.click(924,528)
 time.sleep(1)
@@ -9,6 +10,7 @@ pyautogui.click(1022,565)
 pyautogui.moveTo(894,593)
 pyautogui.click(894,593)
 time.sleep(5)
+#COLOCAR TRANSAÇÃO PARA VERIFICAR
 pyautogui.moveTo(1220,95,duration=1)
 pyautogui.click(1220,95)
 time.sleep(3)
@@ -17,6 +19,7 @@ pyautogui.click(159,136)
 pyautogui.typewrite('zmmmam10090', interval=0)
 pyautogui.press('enter')
 time.sleep(4)
+#PERMISSÃO PARA ENTRAR SAP
 pyautogui.moveTo(455,486,duration=0.5)
 time.sleep(0.5)
 pyautogui.click(455,486)
@@ -27,6 +30,7 @@ time.sleep(5)
 pyautogui.moveTo(1067,716)
 pyautogui.click(1067,716)
 time.sleep(4)
+#COLOCAR DADOS DA NF PARA VERIFICAR
 pyautogui.moveTo(269,170)
 pyautogui.click(269,170)
 time.sleep(0.5)
@@ -46,4 +50,5 @@ time.sleep(0.5)
 pyautogui.moveTo(301,247)
 pyautogui.click(301,247)
 time.sleep(15)
+#FIM DO PROGRAMA
 pyautogui.press('F8')   
